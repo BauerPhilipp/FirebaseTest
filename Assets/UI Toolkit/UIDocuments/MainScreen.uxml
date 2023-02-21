@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USSFiles/Resources/StyleSheet_LoginScreen.uss?fileID=7433441132597879392&amp;guid=d2c626683fb29154c8377dfa2cd8ec65&amp;type=3#StyleSheet_LoginScreen" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/Sprites/Background/background-1591227.jpg?fileID=2800000&amp;guid=0dae4b3e98840c24dbb4363bfef007f3&amp;type=3#background-1591227&apos;); -unity-background-image-tint-color: rgb(209, 209, 209);">
+        <LoginScreen Platzhaltertext="Das ist ein Platzhaltertext:)" Überschrift="Firebase Login" style="flex-grow: 1; align-items: center; justify-content: center; padding-left: 50px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px;" />
+    </ui:VisualElement>
+</ui:UXML>

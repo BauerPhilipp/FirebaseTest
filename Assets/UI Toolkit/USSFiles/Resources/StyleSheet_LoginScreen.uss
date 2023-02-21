@@ -1,0 +1,88 @@
+.mainContainer {
+    flex-grow: 1;
+    flex-direction: column;
+    flex-basis: auto;
+    background-image: url('project://database/Assets/Sprites/Background/watercolor-weich.jpg?fileID=2800000&guid=43d989bda72a6204da24f864d441c3ae&type=3#watercolor-weich');
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.57);
+    border-left-width: 9px;
+    border-right-width: 9px;
+    border-top-width: 9px;
+    border-bottom-width: 9px;
+    border-top-left-radius: 111px;
+    border-bottom-left-radius: 111px;
+    border-top-right-radius: 111px;
+    border-bottom-right-radius: 111px;
+    border-left-color: rgba(0, 0, 0, 0.9);
+    border-right-color: rgba(0, 0, 0, 0.9);
+    border-top-color: rgba(0, 0, 0, 0.9);
+    border-bottom-color: rgba(0, 0, 0, 0.9);
+    align-items: center;
+    justify-content: center;
+}
+
+.textfeldLogin {
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    min-width: auto;
+    width: 50%;
+}
+
+.buttonLogin {
+}
+
+.ueberschrift {
+    font-size: 56px;
+}
+
+.buttonContainer {
+    width: 50%;
+    height: 200px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.buttons {
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 6px;
+    border-right-width: 6px;
+    border-top-width: 6px;
+    border-bottom-width: 6px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 26px;
+    -unity-text-align: middle-center;
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(217, 217, 217, 0.49);
+}
+
+.labelButtons {
+    font-size: 58px;
+    -unity-font-style: bold;
+}
+
+.buttons:hover {
+    background-color: rgba(77, 92, 192, 0.5);
+}
+
+.unity-base-field__input {
+    height: 60px;
+    font-size: 34px;
+}
